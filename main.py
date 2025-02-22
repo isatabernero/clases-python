@@ -3,7 +3,7 @@ print("hello world")
 
 # tipos de variable 
 numero = 5
-nombre = "Isa"
+nombre = "Isa" 
 cantidad = 5.6 
 # año mes día. datetime(2025, 2, 1,)
 fecha = datetime(2020,5,3)
@@ -53,7 +53,7 @@ for a in alumnos:
 for a in alumnos:
    if a["edad"] < 18:
       print("no puede conducir")
-    else:
+   else:
       print("puede conducir")
       
 
