@@ -3,7 +3,7 @@ print("hello world")
 
 # tipos de variable 
 numero = 5
-nombre = "Isa"
+nombre = "Isa" 
 cantidad = 5.6 
 # año mes día. datetime(2025, 2, 1,)
 fecha = datetime(2020,5,3)
