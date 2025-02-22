@@ -12,6 +12,6 @@ def main():
     usuario = {"nombre": nombre, "edad": edad, "numero de carnet": carnet}
     print(usuario)
 main()
-
+ 
 
     

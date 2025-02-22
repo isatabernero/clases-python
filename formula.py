@@ -2,7 +2,7 @@
 # declarar el método
 
 
-def calcularedad(nacimiento, actual):
+def calcularedad(nacimiento, actual): 
     edad = actual - nacimiento
     return edad 
 

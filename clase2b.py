@@ -6,7 +6,7 @@ from metodos import raiz_cuadrada, random
 def main():
     #pedir un  umero en pantalla
     numero = int(input('Ingrese número?'))
-    y = raiz_cuadrada(numero)
+    y = raiz_cuadrada(numero) 
     print("La raíz es: ", y)
     x = random()
     print(x)
