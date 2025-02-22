@@ -53,7 +53,7 @@ for a in alumnos:
 for a in alumnos:
    if a["edad"] < 18:
       print("no puede conducir")
-    else:
+   else:
       print("puede conducir")
       
 
