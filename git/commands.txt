@@ -1,0 +1,11 @@
+#comandos de git 
+// pasos para subir codigo 
+
+
+// guardamos en stage los cambios que queremos hacer 
+git add . #para añadir todos los cambios que tenemos.
+git commit -m" #para subir/ guardar los cambios a la rama en la que estoy
+
+
+
+git checkout mirama #ir a mi rama
