@@ -9,4 +9,4 @@ def raiz_cuadrada(x):
 
 # es random porque es un metodo dentro de la libreria random. pro tu creas otro metodo
 def metodorandom():
-    return random.random()
+    return random.random() 

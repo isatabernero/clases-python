@@ -1,6 +1,6 @@
 from datetime import datetime 
 print("hello world")
-
+ 
 # tipos de variable 
 numero = 5
 nombre = "Isa"

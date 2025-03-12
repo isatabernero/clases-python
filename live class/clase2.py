@@ -1,7 +1,7 @@
 #para ver el tipo de variable 
 texto = "ejemplo"
 print(type(texto))
-
+ 
 anio_nacimiento = 2003
 anio_actual = 2025
 

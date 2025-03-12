@@ -1,0 +1,39 @@
+# 🔹 CONDICIONALES
+edad = int(input("Ingresa tu edad: "))
+
+if edad < 18:
+    print("Eres menor")
+elif edad == 18:
+    print("Tienes 18 años")
+else:
+    print("Eres mayor de edad.")
+
+# 🔹 BUCLES
+print("\nContando del 1 al 5 con un bucle for:")
+for i in range(1, 6):
+    print(i)
+
+print("\nUsando un bucle while:")
+contador = 1
+while contador <= 5:
+    print(contador)
+    contador += 1
+
+# 🔹 MANEJO DE EXCEPCIONES
+try:
+    numero = int(input("\nIngresa un número entero: "))
+    print(f"Has ingresado el número {numero}.")
+except ValueError:
+    print("Error: Debes ingresar un número válido.")
+
+# 🔹 FUNCIONES
+def saludar(nombre):
+    """Función que recibe un nombre y lo saluda"""
+    return f"Hola, {nombre}! Bienvenido a Python."
+
+# Llamando la función
+print(saludar("Ana"))
+
+# 🔹 FUNCIONES LAMBDA
+doble = lambda x: x * 2
+print(f"El doble de 5 es {doble(5)}")
