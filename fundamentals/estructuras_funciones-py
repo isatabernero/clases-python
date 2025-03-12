@@ -2,11 +2,11 @@
 edad = int(input("Ingresa tu edad: "))
 
 if edad < 18:
-    print("Eres menor de edad.")
+    print("Eres un crío")
 elif edad == 18:
-    print("Tienes 18 años, justo en el límite.")
+    print("Asi con 18 si")
 else:
-    print("Eres mayor de edad.")
+    print("ya eres grande")
 
 # 🔹 BUCLES
 print("\nContando del 1 al 5 con un bucle for:")
